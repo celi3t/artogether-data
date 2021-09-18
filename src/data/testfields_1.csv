@@ -1,0 +1,10 @@
+------WebKitFormBoundaryjdGHBEAy7MkcGQmb
+Content-Disposition: form-data; name="file"; filename="testfields.csv"
+Content-Type: text/csv
+
+first_name,last_name,email,phone_number,date,donation_amount,matched_amount,gift_amount,gift_status,payment_status,gift_category,recurring_start_date,campaign,initiative,event,data_source,address1,address2,city,postal_code,country,employer,primary_contact,preferred_contact_method,notes
+ThisIs,ATestForTheApp,hello@test.com,356-1111111,2020-02-11 10:14:00,10,1,1,gift status,payment status,gift category,recurring start date,campaign,initiative,event,data_source,address1,address2,city,postal_code,country,employer,primary contact,preferred contact method,notes
+ThisIs,ATestForTheApp,hello@differentemail.com,,2020-04-04T20:13:22Z,20,2,2,gift status,payment status,gift category,recurring start date,campaign,initiative,event,data_source,address1,address2,city,postal_code,country,employer,primary contact,preferred contact method,notes
+ThisIs,ATestForTheApp,,356-1111111,2020-07-03 21:26,10,3,3,gift status,payment status,gift category,recurring start date,campaign,initiative,event,data_source,address1,address2,city,postal_code,country,employer,primary contact,preferred contact method,notes
+ThisIs,SOmebodyElseInTheApp,hello@othertest.com,333-1111111,2020-07-07 10:00:00,10,3,3,not important,gift_category,,,,,,,,,,,,,,,
+------WebKitFormBoundaryjdGHBEAy7MkcGQmb--
