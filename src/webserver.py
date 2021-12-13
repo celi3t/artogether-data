@@ -26,7 +26,7 @@ class HTTPRequestHandler(server.SimpleHTTPRequestHandler):
         self.wfile.write(reply_body.encode('utf-8'))
 
 
-# # Create server object listening the port 80
+# # Create server object listening the port 80  --int(os.environ['PORT'])
 server_object = server.HTTPServer(server_address=('0.0.0.0', int(os.environ['PORT'])), RequestHandlerClass=HTTPRequestHandler)
 
 # # Start the web server
