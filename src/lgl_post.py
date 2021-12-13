@@ -23,6 +23,7 @@ def post_message(data):
   payload = {}
   files = {}
   headers= {}
+  #url = 'https://artogether.littlegreenlight.com/integrations/c0af1c57-2868-43cf-b10f-b77ef90b6bdf/listener'
   url = os.environ.get("donations_url")
   print("printing webhook url")
   print(url)
